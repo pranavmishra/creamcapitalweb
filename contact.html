@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Cream Capital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: #1a1a1a;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: #1a1e21;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .contact-section {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .contact-section p {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    input, textarea {
+      padding: 14px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    textarea {
+      height: 140px;
+    }
+
+    button {
+      width: 100px;
+      margin: 0 auto;
+      padding: 10px 0;
+      background-color: #1a1a1a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #1a1e21;
+      color: #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 40px 60px;
+    }
+
+    .footer-col {
+      flex: 1 1 25%;
+      margin-bottom: 20px;
+    }
+
+    .footer-col ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .footer-col input {
+      padding: 8px;
+      margin-top: 10px;
+    }
+
+    .footer-col button {
+      padding: 6px 12px;
+      margin-left: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .footer-col {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Logo/logo.png" alt="Cream Capital Logo" height="35">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="token.html">Token Ecosystem</a>
+    <a href="faq.html">FAQ</a>
+    <a href="team.html">Our Team</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Contact Us</h1>
+</section>
+
+<section class="contact-section">
+  <h2>Talk to us.</h2>
+  <p>Our staff stands ready to answer any questions you might have. Reach out to us using the form below. <br>We do our best to respond quickly.</p>
+
+  <form>
+    <input type="text" placeholder="Your Name (required)" required>
+    <input type="email" placeholder="Your Email (required)" required>
+    <input type="text" placeholder="Subject">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <div class="footer-col">
+    <h4>Cream Capital</h4>
+    <p>© 2017 Cream Capital, LLC<br>Headquartered in Las Vegas, Nevada.</p>
+    <div style="margin-top: 10px;">
+      <img src="social-fb.png" alt="FB" height="20">
+      <img src="social-tw.png" alt="Twitter" height="20">
+      <img src="social-ig.png" alt="Instagram" height="20">
+    </div>
+  </div>
+
+  <div class="footer-col">
+    <h4>Latest Posts</h4>
+    <ul>
+      <li>Token Sale Suspension & The Road Ahead</li>
+      <li>Token Sale Date Change and Pre-Sale Announcement</li>
+      <li>Cream Capital Develops ERC-223</li>
+    </ul>
+  </div>
+
+  <div class="footer-col">
+    <h4>Twitter Feed</h4>
+    <p><strong>It seems</strong> that you haven’t connected your Twitter account</p>
+  </div>
+
+  <div class="footer-col">
+    <h4>Newsletter</h4>
+    <input type="email" placeholder="Your email address">
+    <button>Subscribe</button>
+  </div>
+</footer>
+
+</body>
+</html>

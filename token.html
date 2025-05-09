@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cream Capital</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: #000;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: #1a1e21;
+      color: white;
+      padding: 80px 60px;
+    }
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    .hero strong {
+      display: block;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .whitepaper-btn {
+      margin-top: 20px;
+      background: white;
+      color: black;
+      padding: 8px 20px;
+      font-weight: bold;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .features {
+      background-color: #1a1e21;
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 60px;
+      justify-content: space-between;
+    }
+    .feature {
+      width: 30%;
+      margin-bottom: 30px;
+    }
+
+    .mid-section {
+      text-align: center;
+      padding: 60px;
+      background: white;
+    }
+
+    .newsletter {
+      background: #1a1e21;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 220px;
+      margin-right: 10px;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      border: none;
+      background: white;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #101214;
+      color: #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 40px 60px;
+    }
+
+    .footer-col {
+      flex: 1 1 25%;
+      margin-bottom: 20px;
+    }
+
+    .footer-col ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .footer-col input {
+      padding: 8px;
+      margin-top: 10px;
+    }
+
+    .footer-col button {
+      padding: 6px 12px;
+      margin-left: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .feature, .footer-col {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Logo/logo.png" alt="Cream Capital Logo" height="35">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="token.html">Token Ecosystem</a>
+    <a href="faq.html">FAQ</a>
+    <a href="team.html">Our Team</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>The world’s most stable cryptocurrency.</h1>
+  <p>Cream Cash is a cryptocurrency built using Ethereum blockchain technology. Intended to be used frequently for everyday transactions, the total supply of tokens fluctuates depending on the token’s current market capitalization.</p>
+  <strong>1 CREAM = 1 USD</strong>
+  <button class="whitepaper-btn">WHITE PAPER</button>
+</section>
+
+<section class="features">
+  <div class="feature"><h3>Consensus</h3><p>Inherits Ethereum platform’s consensus. Hybrid PoW/PoS expected post-Metropolis.</p></div>
+  <div class="feature"><h3>Stability</h3><p>Supply adjusts to market cap to maintain 1:1 USD value.</p></div>
+  <div class="feature"><h3>Accessibility</h3><p>Available via Cream Platform or CampSites ATM locations.</p></div>
+  <div class="feature"><h3>Transactability</h3><p>Spend using debit card synced with your wallet.</p></div>
+  <div class="feature"><h3>Cream Generation</h3><p>Holding $CASH generates $CREAM. Enjoy lower fees and benefits.</p></div>
+  <div class="feature"><h3>ERC-223 Token Standard</h3><p>Cream Cash is an ERC-223 token.</p></div>
+</section>
+
+<section class="mid-section">
+  <h2>Manage your assets on the blockchain.</h2>
+  <p>Cream is an ERC-223 token with additional transactability and incentives.</p>
+</section>
+
+<section class="newsletter">
+  <h2>Never Miss an Update</h2>
+  <p>Subscribe to stay in the loop with the latest news and updates from Cream Capital.</p>
+  <input type="email" placeholder="Your email address">
+  <button>Subscribe</button>
+</section>
+
+<footer>
+  <div class="footer-col">
+    <h4>Cream Capital</h4>
+    <p>© 2017 Cream Capital, LLC<br>Headquartered in Las Vegas, Nevada.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Latest Posts</h4>
+    <ul>
+      <li>Token Sale Suspension & The Road Ahead</li>
+      <li>Pre-Sale Announcement</li>
+      <li>ERC-223 Token Development</li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Twitter Feed</h4>
+    <p><strong>It seems</strong> that you haven’t connected your Twitter account</p>
+  </div>
+  <div class="footer-col">
+    <h4>Newsletter</h4>
+    <input type="email" placeholder="Your email address">
+    <button>Subscribe</button>
+  </div>
+</footer>
+
+</body>
+</html>
